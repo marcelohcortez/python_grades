@@ -1,7 +1,4 @@
 import os
-students_graduated = []
-students_failed = []
-students_grades = {}
 
 def grades():
     decision = input('Do you want to INSERT STUDENTS (insert), VIEW STUDENTS (view), GRADE STUDENTS (grade) or CALCULATE THE GRADES (calculate)?\n').lower()
